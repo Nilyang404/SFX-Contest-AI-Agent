@@ -1,9 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2024-06-22T10:27:46.587Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.1" etag="OP90dbaSTdBIUmoNL7US" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-22T10:51:01.435Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="wN2FCM8stdeyXX-ljWzJ" version="24.6.1" type="github">
   <diagram name="第 1 页" id="X41MXDuo40JC-4KFyXnB">
-    <mxGraphModel>
+    <mxGraphModel dx="908" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-6" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="60" width="410" height="570" as="geometry">
+            <mxRectangle x="230" y="60" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-7" value="" style="swimlane;startSize=0;" vertex="1" parent="Qz5XPLuLtrk1ZnyLcH5y-6">
+          <mxGeometry x="20" y="50" width="360" height="500" as="geometry">
+            <mxRectangle x="20" y="50" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-9" value="Docker" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qz5XPLuLtrk1ZnyLcH5y-7">
+          <mxGeometry x="153" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-11" value="" style="swimlane;startSize=0;" vertex="1" parent="Qz5XPLuLtrk1ZnyLcH5y-7">
+          <mxGeometry x="38" y="50" width="290" height="100" as="geometry">
+            <mxRectangle x="38" y="50" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-16" value="用户界面层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qz5XPLuLtrk1ZnyLcH5y-11">
+          <mxGeometry x="92" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-2" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;React&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;horizontal=1;fontSize=17;" vertex="1" parent="Qz5XPLuLtrk1ZnyLcH5y-11">
+          <mxGeometry x="12" y="40" width="78" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-18" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Tailwind&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;horizontal=1;fontSize=17;" vertex="1" parent="Qz5XPLuLtrk1ZnyLcH5y-11">
+          <mxGeometry x="103" y="40" width="78" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-19" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;微信SDK&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;horizontal=1;fontSize=17;" vertex="1" parent="Qz5XPLuLtrk1ZnyLcH5y-11">
+          <mxGeometry x="192" y="40" width="78" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-29" value="" style="swimlane;startSize=0;" vertex="1" parent="Qz5XPLuLtrk1ZnyLcH5y-7">
+          <mxGeometry x="38" y="160" width="290" height="100" as="geometry">
+            <mxRectangle x="38" y="50" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-30" value="接口层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qz5XPLuLtrk1ZnyLcH5y-29">
+          <mxGeometry x="92" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-31" value="文心一言" style="rounded=1;whiteSpace=wrap;html=1;horizontal=1;fontSize=17;" vertex="1" parent="Qz5XPLuLtrk1ZnyLcH5y-29">
+          <mxGeometry x="12" y="40" width="78" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-32" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;OpenAI&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;horizontal=1;fontSize=17;" vertex="1" parent="Qz5XPLuLtrk1ZnyLcH5y-29">
+          <mxGeometry x="103" y="40" width="78" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-33" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Gemini&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;horizontal=1;fontSize=17;" vertex="1" parent="Qz5XPLuLtrk1ZnyLcH5y-29">
+          <mxGeometry x="192" y="40" width="78" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-34" value="" style="swimlane;startSize=0;" vertex="1" parent="Qz5XPLuLtrk1ZnyLcH5y-7">
+          <mxGeometry x="38" y="270" width="290" height="100" as="geometry">
+            <mxRectangle x="38" y="50" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-35" value="业务层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qz5XPLuLtrk1ZnyLcH5y-34">
+          <mxGeometry x="92" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-36" value="Django" style="rounded=1;whiteSpace=wrap;html=1;horizontal=1;fontSize=17;" vertex="1" parent="Qz5XPLuLtrk1ZnyLcH5y-34">
+          <mxGeometry x="150" y="40" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-37" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Python&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;horizontal=1;fontSize=17;" vertex="1" parent="Qz5XPLuLtrk1ZnyLcH5y-34">
+          <mxGeometry x="10" y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-40" value="" style="swimlane;startSize=0;" vertex="1" parent="Qz5XPLuLtrk1ZnyLcH5y-7">
+          <mxGeometry x="38" y="380" width="290" height="100" as="geometry">
+            <mxRectangle x="38" y="50" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-41" value="数据层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qz5XPLuLtrk1ZnyLcH5y-40">
+          <mxGeometry x="92" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-43" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;MongoDB&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;horizontal=1;fontSize=17;" vertex="1" parent="Qz5XPLuLtrk1ZnyLcH5y-40">
+          <mxGeometry x="20" y="30" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5XPLuLtrk1ZnyLcH5y-8" value="AWS EC2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qz5XPLuLtrk1ZnyLcH5y-6">
+          <mxGeometry x="180" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
